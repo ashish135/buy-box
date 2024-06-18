@@ -2,7 +2,7 @@ let lastScroll = 0;
 let isSticky = false;
   // JavaScript to make the right column sticky when scrolling
   window.addEventListener('scroll', function() {
-    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+    const currentScroll = window.scrollY || document.documentElement.scrollTop;
     const leftColumn = document.getElementById('leftColumn');
     const rightColumn = document.getElementById('rightColumn');
     const leftColumnRect = leftColumn.getBoundingClientRect();
