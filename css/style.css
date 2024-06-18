@@ -1,0 +1,53 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1376px;
+    display: flex;
+    gap: 48px;
+    margin: 0 auto;
+  }
+  .left-column {
+    width: 65%;
+    padding: 30px;
+    min-height: 2600px;
+    background-color: cyan;
+  }
+  .right-column {
+    width: 35%;
+    height: fit-content;
+    position: relative;
+    top: 0;
+    padding: 30px;
+    background-color: greenyellow;
+  }
+
+  .price{
+    margin: 10px 0;
+    font-size: large;
+    font-weight: 700;
+  }
+
+  .buy-button {
+    margin-top: 40px;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0b0000;
+    background-color: #fcfcfc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #2980b9;
+  }
