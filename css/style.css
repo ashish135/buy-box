@@ -27,6 +27,10 @@
     background-color: greenyellow;
   }
 
+  p{
+    margin-bottom: 30px;
+  }
+
   .price{
     margin: 10px 0;
     font-size: large;
