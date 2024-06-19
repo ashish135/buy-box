@@ -57,9 +57,8 @@ class StickyColumn {
     }
 
     adjustPosition(currentScroll, rightColumnTop) {
-        console.log("-----")
         this.rightColumn.style.position = 'relative';
-        this.rightColumn.style.top = parseInt(currentScroll + rightColumnTop) + 'px';
+        this.rightColumn.style.top = parseInt(currentScroll + rightColumnTop - this.headerHeight) + 'px';
         this.isSticky = false;
     }
 
